@@ -16,7 +16,6 @@ for (var i = 0; i < labels.length; i++) {
 window.addEventListener('load', function () {
   var inputs = document.getElementsByClassName('input')
   for (var i = 0; i < inputs.length; i++) {
-    console.log('looped')
     inputs[i].addEventListener('keyup', function () {
       toggleInputContainer(this)
     })

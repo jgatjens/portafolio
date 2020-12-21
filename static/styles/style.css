@@ -31392,7 +31392,7 @@ select {
   position: fixed;
   max-width: 370px;
   right: 40px;
-  top: 40px;
+  top: 0;
 }
 
 @media (min-width: 640px) {
